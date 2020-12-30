@@ -1,3 +1,30 @@
-h1{
-    color: red;
+
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #333333;
+    border-top: 2px solid rgb(84, 168, 44);
+}
+
+a{
+    color: #fff;
+    line-height: 1.6;
+    font-family: Lato;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+nav a:hover{
+    background-color: black;
+    color: #fff;
+    transition: .5s ease-in;
+}
+ul{
+    list-style: none;
+    display: flex;
 }
