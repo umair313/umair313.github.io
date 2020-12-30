@@ -27,4 +27,9 @@ nav a:hover{
 ul{
     list-style: none;
     display: flex;
+    
+}
+.alignleft{
+    
+    margin-left: auto;
 }
